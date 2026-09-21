@@ -1,22 +1,11 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
+import NewsList from './components/NewsList'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <section id="center">
-        <h1>Sports News Dashboard</h1>
-        <h2>Created by Teodora</h2>
-      </section>
-
-      
-     
-    </>
+    <div className="App" style={{padding: 20}}>
+      <NewsList />
+    </div>
   )
 }
 
